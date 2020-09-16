@@ -1,9 +1,6 @@
 #!/bin/zsh
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | zsh
 
-cp ~/.dotfiles_debian/.zshrc ~/.zshrc
-source ~/.zshrc
-
 nvm install node
 nvm use node
 

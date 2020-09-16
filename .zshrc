@@ -69,7 +69,7 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions cp)
+plugins=(git zsh-autosuggestions cp virtualenv)
 
 ZSH_DISABLE_COMPFIX="true"
 source $ZSH/oh-my-zsh.sh
@@ -100,7 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs)
-POWERLEVEL9k_RIGHT_PROMPT_ELEMENTS=(root_indicator time)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(virtualenv root_indicator time)
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=4'
 
 export NVM_DIR="$HOME/.nvm"
